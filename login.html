@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/Cafe aroma.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cafe Management Login/Sign Up</title>
+</head>
+<body>
+    <div class="video-container">
+      <video autoplay muted loop id="bg-video">
+        <source src="new video.mp4" type="video/mp4">
+      </video>
+      <div class="login-container" style="margin-bottom: 30px;">
+        <div class="logo">
+          <img style="height: 150px; width: 180px;" src="https://cdn.dribbble.com/users/156849/screenshots/6740564/29.gif" alt="cafe aroma Logo">
+        </div>
+        <br>
+        <form id="loginForm" style="display: block;" action="index.html">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter your username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+          <button type="submit">Login</button>
+        </form>
+        <form id="signupForm" style="display: none;">
+          <label for="signupUsername">Username:</label>
+          <input type="text" id="signupUsername" placeholder="Enter a username" required>
+          <label for="signupPassword">Password:</label>
+          <input type="password" id="signupPassword" placeholder="Enter a password" required>
+          <label for="signupPassword2">Re-enter Password:</label>
+          <input type="password" id="signupPassword2" placeholder="Re-enter the password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+        <p id="toggleFormText">Don't have an account? <a href="#" onclick="toggleForm()">Sign Up</a></p>
+      </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
