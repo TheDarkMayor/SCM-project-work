@@ -5,9 +5,11 @@
 	flex-direction: column-reverse;
 	gap: 5rem;
 }
+
 .coffee__left__wrapper {
 	max-width: 350px;
 }
+
 .coffee__imgWrapper {
 	max-width: 400px;
 	width: 80%;
