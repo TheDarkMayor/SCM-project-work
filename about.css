@@ -3,6 +3,9 @@
 	flex-direction: column;
 	gap: 2rem;
 }
+
+
+//about.css
 .ourStory__title,
 .ourGoals__title {
 	font-size: 1.8rem;
